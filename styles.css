@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+/* Start Menü Einstellungen */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #850518;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+/* Ende Menü Einstellungen */
+
+h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 32px;
+}
+
+/* Start HeroSection Einstellungen */
+.herosection {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('img/systemsky_start.jpg') no-repeat center center/cover;
+    height: 80vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+.herosection h1 {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.herosection p {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.herobutton {
+    display: inline-block;
+    margin-top: 20%;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.herobutton:hover {
+    background-color: #0056b3;
+}
+/* Ende HeroSection Einstellungen */
+
+section p {
+    max-width: 70vw;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
