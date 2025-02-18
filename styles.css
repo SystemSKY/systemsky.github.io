@@ -109,7 +109,7 @@ section p {
     line-height: 1.6;
 }
 
-/* Tests für mobile
+/* Tests für mobile */
 
 @media (max-width: 768px) {
     .herosection {
