@@ -115,6 +115,8 @@ section p {
     .herosection {
         height: 60vh; /* Weniger Höhe für Handys */
         padding: 10px;
+        display: flex;
+        flex-direction: column;
     }
 
     .herosection h1 {
