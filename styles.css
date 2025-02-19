@@ -136,15 +136,12 @@ section p {
     padding: 12px 24px;
     font-size: 1.2rem;
     color: white;
-    background-color: #007bff;
+    background-color: red;
     border: none;
     border-radius: 8px;
     text-decoration: none;
     transition: background 0.3s;
 }
 
-.herobutton:hover {
-    background-color: #0056b3;
-}
 
 }
