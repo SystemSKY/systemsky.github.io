@@ -126,5 +126,7 @@ section p {
     .herosection p {
         font-size: 16px;
         max-width: 90%; /* Verhindert zu lange Zeilen */
+        margin-top: 100px;
+        color: yellow;
     }
 }
