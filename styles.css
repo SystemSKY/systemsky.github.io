@@ -10,7 +10,8 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #850518;
+    /*background: #850518;*/
+    background: #104E8B;
     padding: 20px 0;
     text-align: center;
     z-index: 1000;
@@ -52,6 +53,12 @@ h2 {
     text-align: center;
     margin-top: 80px;
     font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 28px;
 }
 
 /* Start HeroSection Einstellungen */
@@ -104,3 +111,29 @@ section p {
     font-size: 1.5rem;
     line-height: 1.6;
 }
+
+/* Start Footer Einstellungen */
+footer {
+  background-color: #104E8B;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 1rem;
+  margin-top: 5%;
+}
+
+.footer-container {
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+/* Ende Footer Einstellungen */
