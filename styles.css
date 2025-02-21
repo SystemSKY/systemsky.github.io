@@ -107,7 +107,7 @@ section p {
     margin: 0 auto;
     text-align: justify;
     padding: 20px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.6;
 }
 
@@ -149,12 +149,18 @@ footer {
 }
 
 .index-box {
-  border: 2px solid #4682B4;
+  border: 2px solid #ddd;
   padding: 15px;
   width: 75%;
   text-align: center;
-  background: white;
   border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.index-box:hover {
+  transform: scale(1.05);
 }
 /* Ende Div Boxen für die Service auf der Startseite */
 
