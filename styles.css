@@ -118,8 +118,8 @@ footer {
   text-align: center;
   padding: 20px 10px;
   font-size: 1rem;
-  margin-top: auto;
-  position: fixed;
+  margin-top: 5%;
+  position: relative;
   width: 100%;
   bottom: 0;
 }
