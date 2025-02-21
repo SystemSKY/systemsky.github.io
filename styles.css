@@ -154,6 +154,7 @@ footer {
   width: 75%;
   text-align: center;
   background: white;
+  border-radius: 10px 30px 50px 70px;
 }
 /* Ende Div Boxen für die Service auf der Startseite */
 
@@ -183,6 +184,7 @@ footer {
   width: 250px;
   text-align: center;
   background: white;
+  border-radius: 10px 30px 50px 70px;
 }
 
 /* Ende Kontakt Einstellung */
