@@ -2,8 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /*background: white;*/
-    background: linear-gradient(to bottom, #fff, #045cb8);
+    background: white;
 }
 
 /* Start Menü Einstellungen */
