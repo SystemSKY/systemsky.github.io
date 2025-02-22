@@ -79,12 +79,12 @@ h3 {
     gap: 20px;
 }
 
-.herosection h1 {
+.herosection_index h1 {
     color: white;
     font-size: 3rem;
 }
 
-.herosection p {
+.herosection_index p {
     color: white;
     font-size: 1.5rem;
 }
@@ -227,7 +227,6 @@ footer {
 }
 /* Ende Kontakt Einstellung */
 
-
 /* Start Impressum Einstellung */
 .impressum-container {
   display: flex;
@@ -247,3 +246,52 @@ footer {
   border-radius: 10px;
 }
 /* Ende Impressum Einstellung */
+
+/* Start Konfig für die Servicebilder */
+.systemsky_service_img {
+  width: 100%;
+  height: 80vh;
+  filter: brightness(70%);
+}
+
+.herosection_service-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.herosection_service-header {
+  position: absolute;
+  top: 50%; /* In die Mitte */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Exakte Zentrierung */
+  color: white; /* Textfarbe */
+}
+
+.herosection_service-header h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.herosection_service-header p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Damit die Box mit dem Servicetext langsam erscheint */
+.herosection_service-text {
+  opacity: 0;
+  animation: flicker-once 1s ease-in-out forwards;
+}
+
+/* Einstellung des flackerns */
+@keyframes flicker-once {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    40% { opacity: 0.3; }
+    60% { opacity: 0.8; }
+    80% { opacity: 0.5; }
+    100% { opacity: 1; } /* Bleibt sichtbar */
+}
+/* Ende Konfig für die Servicebilder */
