@@ -295,3 +295,11 @@ footer {
     100% { opacity: 1; } /* Bleibt sichtbar */
 }
 /* Ende Konfig für die Servicebilder */
+
+/* Start Konfig für den Servicetext */
+.service_text-box {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 1.2rem;
+}
+/* Ende Konfig für den Servicetext */
