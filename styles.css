@@ -164,20 +164,22 @@ footer {
 }
 
 .service-container {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 5%;
   width: 90vw;
-  display: flex;
   gap: 15px;
+  justify-content: center;
 }
 
 .service-box {
   border: 2px solid #ddd;
   padding: 15px;
-  width: 15%;
+  width: 20%;
   border-radius: 15px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   background: white; 
-  transition: transform 0.2s ease-in-out, background-color 0.7s ease;;
+  transition: transform 0.2s ease-in-out, background-color 0.7s ease;
 }
 
 .service-box:hover {
