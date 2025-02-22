@@ -32,3 +32,24 @@
   transition: background 0.3s;
 }
 /* Ende HeroSection Einstellungen */
+
+/* Start Div Boxen für die Service auf der Startseite */
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  width: 90vw;
+  gap: 15px;
+}
+
+.service-box {
+  border: 2px solid #ddd;
+  padding: 15px;
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  background: white;
+  transition: transform 0.2s ease-in-out, background-color 0.7s ease;;
+}
+/* Ende Div Boxen für die Service auf der Startseite */

@@ -163,11 +163,8 @@ footer {
   transform: scale(1.05);
 }
 
-
-
-
 .service-container {
-  /*background: yellow;*/
+  margin-top: 5%;
   width: 90vw;
   display: flex;
   gap: 15px;
@@ -180,18 +177,18 @@ footer {
   border-radius: 15px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   background: white; 
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, background-color 0.7s ease;;
 }
 
 .service-box:hover {
   transform: scale(1.05);
+  background-color: #3e9af5;
 }
 
 .service-h3 {
   margin: 0%;
   font-size: 1.5rem;
 }
-
 /* Ende Div Boxen für die Service auf der Startseite */
 
 /* Start Kontakt Einstellung */
@@ -222,12 +219,10 @@ footer {
   background: white;
   border-radius: 10px 30px 50px 70px;
 }
-
 /* Ende Kontakt Einstellung */
 
 
 /* Start Impressum Einstellung */
-
 .impressum-container {
   display: flex;
   gap: 60px; 
@@ -245,5 +240,4 @@ footer {
   background: white;
   border-radius: 10px;
 }
-
 /* Ende Impressum Einstellung */
