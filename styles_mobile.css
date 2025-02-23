@@ -53,3 +53,10 @@
   transition: transform 0.2s ease-in-out, background-color 0.7s ease;;
 }
 /* Ende Div Boxen für die Service auf der Startseite */
+
+/* Start Tabellen Einstellung damit diese auf X scrollen können*/
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+/* Ende Tabellen Einstellung */
