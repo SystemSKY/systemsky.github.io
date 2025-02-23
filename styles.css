@@ -340,3 +340,32 @@ th {
    opacity: 1;
 }
 /* Ende Konfig der Servicetabellen InfoBox */
+
+
+/* Start Serviceboxen auf den Serviceseiten */
+.services-container {
+  border: 2px solid #ddd;
+  padding-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
+}
+
+.services-containerbox {
+  display: flex;
+  gap: 60px; 
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.services-box {
+  border: 2px solid #4682B4;
+  padding: 15px;
+  width: 30%;
+  text-align: left;
+  background: white;
+  border-radius: 10px 30px 50px 70px;
+}
+/* Ende Serviceboxen auf den Serviceseiten */
