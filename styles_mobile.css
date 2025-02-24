@@ -61,6 +61,39 @@
 }
 /* Ende Tabellen Einstellung */
 
+/* Start Konfig der Servicetabellen InfoBox */
+.table-infobox {
+  position: relative;
+  display: inline-block;
+  cursor: pointer; /* Zeigt an, dass es interaktiv ist */
+  color: blue;
+  text-decoration: underline;
+}
+
+.table-infobox .table-infoboxtext {
+   visibility: hidden;
+   width: 200px;
+   background-color: black;
+   color: #fff;
+   text-align: center;
+   padding: 5px;
+   border-radius: 5px;
+   position: absolute;
+   z-index: 1;
+   top: 100%;
+   bottom: auto;
+   left: 50%;
+   transform: translateX(-50%);
+   opacity: 0;
+   transition: opacity 0.3s;
+}
+
+.table-infobox:hover .table-infoboxtext {
+   visibility: visible;
+   opacity: 1;
+}
+/* Ende Konfig der Servicetabellen InfoBox */
+
 /* Start Serviceboxen auf den Serviceseiten */
 .services-container {
   border: 2px solid #ddd;
