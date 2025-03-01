@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -53,7 +53,6 @@ h1 {
 
 h2 {
     text-align: center;
-    margin-top: 80px;
     font-size: 30px;
 }
 
@@ -160,7 +159,7 @@ footer {
 }
 
 .text-index-box {
-  margin: 5% auto;
+  margin: auto;
   border: 2px solid #ddd;
   padding: 15px;
   width: 75%;
@@ -202,6 +201,19 @@ footer {
 /* Ende Div Boxen für die Service auf der Startseite */
 
 /* Start Kontakt Einstellung */
+.text-contact-box {
+  margin: auto;
+  margin-top: 5%;
+  border: 2px solid #ddd;
+  padding: 15px;
+  width: 75%;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
+  transition: transform 0.2s ease-in-out;
+}
+
 .contact-container {
   display: flex;
   gap: 60px; 
