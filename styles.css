@@ -115,12 +115,16 @@ h3 {
 }
 
 section p {
-    max-width: 70vw;
-    margin: 0 auto;
-    text-align: left;
-    padding: 20px;
-    font-size: 1.2rem;
-    line-height: 1.6;
+  max-width: 70vw;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+p {
+  color: #343232;
 }
 
 /* Start Footer Einstellungen */
