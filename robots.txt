@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /impressum.html
+Sitemap: https://www.systemsky.de/sitemap.xml
