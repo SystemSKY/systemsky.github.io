@@ -239,7 +239,7 @@ footer {
 
 /* Start Impressum Einstellung */
 .impressum-container {
-  display: flex;
+  display: block;
   gap: 60px; 
   justify-content: center;
   flex-wrap: wrap;
@@ -250,10 +250,19 @@ footer {
 .impressum-box {
   border: 2px solid #4682B4;
   padding: 15px;
-  width: 15%;
+  width: 30%;
   text-align: center;
-  background: white;
   border-radius: 10px;
+  margin: 0 auto;
+}
+
+.datenschutz-box {
+  border: 2px solid #4682B4;
+  padding: 15px;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 /* Ende Impressum Einstellung */
 
