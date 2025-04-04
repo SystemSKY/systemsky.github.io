@@ -401,3 +401,23 @@ th {
   border-radius: 10px 30px 50px 70px;
 }
 /* Ende Serviceboxen auf den Serviceseiten */
+
+/* Start Div Container auf den Serviceseiten */
+.div-container {
+  display: flex;
+  gap: 20px;
+}
+
+.div-servicetext {
+/*  border: 2px solid blue;*/
+  width: 60%;
+}
+
+.div-servicepic {
+  width: 10%;
+}
+
+img {
+  border-radius: 10px;
+}
+/* Ende Div Container auf den Serviceseiten */
