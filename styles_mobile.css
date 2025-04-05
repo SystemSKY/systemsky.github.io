@@ -121,3 +121,25 @@
   border-radius: 10px 30px 50px 70px;
 }
 /* Ende Serviceboxen auf den Serviceseiten */
+
+/* Start Div Container auf den Serviceseiten */
+.div-container {
+  display: block;
+  gap: 20px;
+}
+
+.div-servicetext {
+  width: 100%;
+}
+
+.div-servicepic {
+  width: 100%;
+  text-align: center;
+}
+
+.div-servicepic img {
+  width: 80%;
+  border-radius: 10px;
+}
+/* Ende Div Container auf den Serviceseiten */
+

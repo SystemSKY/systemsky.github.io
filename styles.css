@@ -413,10 +413,11 @@ th {
 }
 
 .div-servicepic {
-  width: 10%;
+  width: 40%;
 }
 
-img {
+.div-servicepic img {
+  max-width: 100%;
   border-radius: 10px;
 }
 /* Ende Div Container auf den Serviceseiten */
