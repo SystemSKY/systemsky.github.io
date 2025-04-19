@@ -159,6 +159,7 @@ footer {
 
 /* Start Div Boxen für die Service auf der Startseite */
 .index-container {
+  margin-top: 5%;
   display: flex;
   gap: 60px; 
   justify-content: center;
