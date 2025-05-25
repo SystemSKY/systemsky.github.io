@@ -13,7 +13,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #104E8B;
+    background: #000000;
     padding: 20px 0;
     text-align: center;
     z-index: 1000;
@@ -130,7 +130,7 @@ p {
 
 /* Start Footer Einstellungen */
 footer {
-  background-color: #104E8B;
+  background: #000000;
   color: #fff;
   text-align: center;
   padding: 20px 0;
