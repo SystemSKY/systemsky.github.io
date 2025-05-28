@@ -1,3 +1,32 @@
+/* Div mit dem Logo */
+.div-logo {
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  top: 2%;
+  width: 40%;
+  z-index: 1001;
+}
+/* Ende Div Logo Einstellungen */
+
+/* Start Menü Einstellungen */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000000;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+}
+/* Ende Menü Einstellungen */
+
 /* Start HeroSection Einstellungen */
 .herosection {
   height: 60vh; 
