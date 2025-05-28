@@ -8,6 +8,16 @@ body {
     padding: 0;
 }
 
+/* Div mit dem Logo */
+.div-logo {
+  position: fixed; 
+  top: 1%; 
+  left: 5%; 
+  width: 20%; 
+  z-index: 1001;
+}
+/* Ende Div Logo Einstellungen */
+
 /* Start Menü Einstellungen */
 nav {
     position: fixed;
