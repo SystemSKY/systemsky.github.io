@@ -25,6 +25,20 @@ nav ul {
     padding: 0;
     margin-top: 5%;
 }
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a:hover {
+    position: fixed;
+    z-index: 1002;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
 /* Ende Menü Einstellungen */
 
 /* Start HeroSection Einstellungen */
