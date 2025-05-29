@@ -2,7 +2,7 @@
 .div-logo {
   left: 50%; 
   transform: translate(-50%, -50%);
-  top: 2%;
+  top: 3%;
   width: 60%;
   z-index: 1001;
 }
