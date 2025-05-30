@@ -32,6 +32,13 @@ nav ul li a {
     font-size: 14px;
     font-weight: bold;
 }
+
+nav ul li a:hover {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
 /* Ende Menü Einstellungen */
 
 /* Start HeroSection Einstellungen */
