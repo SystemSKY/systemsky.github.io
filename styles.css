@@ -8,25 +8,26 @@ body {
     padding: 0;
 }
 
-/* Div mit dem Logo */
-.div-logo {
+/* Div mit dem Logo und Nav */
+.div-nav { 
+  width: 100%;
   position: fixed; 
-  top: 1%; 
-  left: 5%; 
-  width: 20%; 
-  z-index: 1001;
+  background: black; 
+  z-index: 1005; 
+  top: 0; 
+  justify-content: center; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
 }
-/* Ende Div Logo Einstellungen */
+/* Ende Div mit dem Logo und Nav Einstellungen */
 
 /* Start Menü Einstellungen */
 nav {
-    position: fixed;
-    top: 0;
     width: 100%;
-    background: #000000;
-    padding: 20px 0;
     text-align: center;
-    z-index: 1000;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 nav ul {
