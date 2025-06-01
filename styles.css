@@ -300,6 +300,7 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%); /* Exakte Zentrierung */
   color: white; /* Textfarbe */
+  text-align: center;
 }
 
 .herosection_service-header h1 {
