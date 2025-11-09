@@ -54,6 +54,24 @@ Mit unserer Lösung gehören <strong>Überlastungen und Serverausfälle</strong>
 
 <div class="lines"></div>
 
+<h3>Blue-Green Deployments</h3>
+<p>
+Mit einem Blue-Green Deployment können Sie <strong>unterbrechungsfreie</strong> Software-Updates durchführen. Das Ziel besteht hier, neue Versionen Ihrer Software zu releasen, ohne spürbare <strong>Downtime und mit sehr geringem Risiko</strong>.
+Dabei haben Sie zwei identische Umgebungen wovon nur eine aktiv ist und Ihre Besucher sehen können. Die andere nicht aktive Umgebung ist dabei Ihre zukünftige Umgebung, auf der Sie die nächste Softwareversion deployen werden. Diese Umgebung wird von unseren SkyBalancern nicht angesteuert, weshalb diese für Ihre Besucher unsichtbar ist.
+
+<br />
+<br />
+Sobald Ihre neue Umgebung von Ihnen vorbereitet wurde, stellen unsere SkyBalancer auf die neue Green Umgebung um. Alle Besucher und Kunden von Ihnen werden nun auf die neue Umgebung geleitet.
+Die alte Blue Umgebung bleibt hier als <strong>fallback für Sie bereit</strong>. Sollten Sie Probleme in der neuen Green feststellen, können Sie die Besucher <strong>einfach auf die alte Blue zurück stellen</strong>.
+Aus der Blue machen Sie dann die <strong>neue Green</strong> und bauen die neue Version Ihrers Systems dort auf.
+
+<br />
+<br />
+Unsere SkyBalancer spielen hierbei eine zentrale Rolle, da diese <strong>automatisch</strong> erkennen können, welche gerade Ihre neue <strong>aktive Umgebung</strong> ist und leiten den Kundentraffic dort hin. Die alte Umgebung wird von unserern SkyBalancer nicht mehr angesteuert. Das ermöglicht Ihnen einen zuverlässigen Schwenk zwischen Blue und Green.
+
+<div class="lines"></div>
+
+
 <h3>Welche Vorteile habe ich durch das SkyBalancing?</h3>
 <div class="div-container">
 <div class="div-servicetext">
@@ -163,7 +181,7 @@ Mit den SkyBalancern können wir <strong>gezielte Bedingungen</strong> für eine
 <tr>
   <td>Schutz vor Bots
    <span class="table-infobox">ℹ️
-    <span class="table-infoboxtext">Erkennt schädliche Bots und blockiert diese
+    <span class="table-infoboxtext">Erkennt schädliche Bots und blockiert diese.
     </span>
    </span>
   </td>
@@ -173,7 +191,17 @@ Mit den SkyBalancern können wir <strong>gezielte Bedingungen</strong> für eine
 <tr>
   <td>Individuelle Einstellungen für jeden HTTP-Request
    <span class="table-infobox">ℹ️
-    <span class="table-infoboxtext">Sie können beliebige Bedingungen definieren, die einen erfolgreichen Aufruf Ihres Dienstes erfordern 
+    <span class="table-infoboxtext">Sie können beliebige Bedingungen definieren, die einen erfolgreichen Aufruf Ihres Dienstes erfordern.
+    </span>
+   </span>
+  </td>
+  <td>&#9989;</td>
+</tr>
+
+<tr>
+  <td>Blue-Green Deployments
+   <span class="table-infobox">ℹ️
+    <span class="table-infoboxtext">Bauen Sie Blue-Green Umgebungen auf, wovon Ihre Besucher nur die aktive Umgebung sehen können. Auf der passiven Umgebung bereiten Sie die nächste Softwareversion vor.
     </span>
    </span>
   </td>
@@ -186,7 +214,7 @@ Mit den SkyBalancern können wir <strong>gezielte Bedingungen</strong> für eine
 Kontaktieren Sie uns gerne per <a href="#contact">E-Mail!</a>
 
 <div class="lines"></div>
-</div>
+</div></p>
 
       </div>
     </main>
