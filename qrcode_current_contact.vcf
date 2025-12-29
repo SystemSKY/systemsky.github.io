@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mohamed;Marzouki;;;
+FN:Mohamed Marzouki - {{ SystemSKY }}
+NOTE:IT-B2B Partner für Ihre Serverdienste
+TITLE:System-Engineer / Cloud-Engineer
+TEL;TYPE=CELL:+4915165875614
+EMAIL;TYPE=WORK:mmarzouki@systemsky.de
+URL:https://www.systemsky.de
+END:VCARD
