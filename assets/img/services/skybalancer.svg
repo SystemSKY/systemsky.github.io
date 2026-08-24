@@ -1,0 +1,26 @@
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-skybalancer" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22e1ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="glow-skybalancer" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="480" height="220" rx="14" fill="#0a0e18"/>
+
+  <circle cx="240" cy="55" r="14" fill="none" stroke="url(#grad-skybalancer)" stroke-width="3" filter="url(#glow-skybalancer)"/>
+  <path d="M240 69 V95" fill="none" stroke="#7f8caf" stroke-width="2"/>
+  <path d="M240 95 L140 150 M240 95 L240 150 M240 95 L340 150" fill="none" stroke="#7f8caf" stroke-width="2"/>
+  <rect x="118" y="150" width="44" height="30" rx="6" fill="none" stroke="#7f8caf" stroke-width="2"/>
+  <rect x="218" y="150" width="44" height="30" rx="6" fill="none" stroke="#7f8caf" stroke-width="2"/>
+  <rect x="318" y="150" width="44" height="30" rx="6" fill="none" stroke="#7f8caf" stroke-width="2"/>
+  <circle cx="140" cy="165" r="3" fill="#22e1ff"/>
+  <circle cx="240" cy="165" r="3" fill="#22e1ff"/>
+  <circle cx="340" cy="165" r="3" fill="#22e1ff"/>
+</svg>

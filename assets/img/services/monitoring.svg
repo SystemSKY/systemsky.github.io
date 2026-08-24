@@ -1,0 +1,25 @@
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-monitoring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22e1ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="glow-monitoring" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="480" height="220" rx="14" fill="#0a0e18"/>
+
+  <line x1="60" y1="150" x2="420" y2="150" stroke="#3a4560" stroke-width="1.5"/>
+  <path d="M60 110 H150 L170 60 L195 150 L215 90 L230 110 H420"
+        fill="none" stroke="url(#grad-monitoring)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow-monitoring)"/>
+  <circle cx="90" cy="180" r="5" fill="#22e1ff"/>
+  <circle cx="150" cy="180" r="5" fill="none" stroke="#7f8caf" stroke-width="1.5"/>
+  <circle cx="210" cy="180" r="5" fill="none" stroke="#7f8caf" stroke-width="1.5"/>
+  <circle cx="270" cy="180" r="5" fill="none" stroke="#7f8caf" stroke-width="1.5"/>
+  <circle cx="330" cy="180" r="5" fill="none" stroke="#7f8caf" stroke-width="1.5"/>
+</svg>

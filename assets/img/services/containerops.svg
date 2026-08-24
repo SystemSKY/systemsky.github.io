@@ -1,0 +1,24 @@
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-containerops" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22e1ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="glow-containerops" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="480" height="220" rx="14" fill="#0a0e18"/>
+
+  <path d="M240 34 V64" fill="none" stroke="#7f8caf" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M228 52 L240 66 L252 52" fill="none" stroke="#7f8caf" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="170" y="150" width="140" height="34" rx="6" fill="none" stroke="#3a4560" stroke-width="2"/>
+  <rect x="170" y="112" width="140" height="34" rx="6" fill="none" stroke="#3a4560" stroke-width="2"/>
+  <rect x="170" y="72" width="140" height="36" rx="7" fill="none" stroke="url(#grad-containerops)" stroke-width="3" filter="url(#glow-containerops)"/>
+  <line x1="186" y1="90" x2="270" y2="90" stroke="#f6f8fc" stroke-width="2" opacity="0.75"/>
+  <circle cx="292" cy="90" r="4" fill="#22e1ff"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-websma-2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22e1ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="glow-websma-2" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="480" height="220" rx="14" fill="#0a0e18"/>
+
+  <rect x="120" y="60" width="180" height="120" rx="10" fill="none" stroke="#7f8caf" stroke-width="2.5"/>
+  <line x1="120" y1="86" x2="300" y2="86" stroke="#7f8caf" stroke-width="2"/>
+  <circle cx="138" cy="73" r="4" fill="#3a4560"/>
+  <circle cx="152" cy="73" r="4" fill="#3a4560"/>
+  <line x1="140" y1="105" x2="240" y2="105" stroke="#f6f8fc" stroke-width="2" opacity="0.6"/>
+  <line x1="140" y1="122" x2="220" y2="122" stroke="#3a4560" stroke-width="2"/>
+  <path d="M140 145 L155 160 L180 130" fill="none" stroke="#22e1ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="305" cy="150" r="34" fill="none" stroke="url(#grad-websma-2)" stroke-width="4" filter="url(#glow-websma-2)"/>
+  <line x1="329" y1="174" x2="352" y2="197" stroke="url(#grad-websma-2)" stroke-width="6" stroke-linecap="round"/>
+</svg>
