@@ -350,3 +350,51 @@ tbody td:not(:first-child) { text-align: center; }
 /* ---------- Impressum ---------- */
 .legal { max-width: 680px; margin: 0 auto; padding: 70px 24px 110px; }
 .legal h2 { margin-top: 1.6em; }
+
+@font-face {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url('/assets/fonts/inter-v20-latin-regular.woff2') format('woff2');
+ }
+
+ @font-face {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: url('/assets/fonts/inter-v20-latin-500.woff2') format('woff2');
+ }
+
+ @font-face {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-display: swap;
+   src: url('/assets/fonts/inter-v20-latin-600.woff2') format('woff2');
+ }
+
+ @font-face {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: url('/assets/fonts/inter-v20-latin-700.woff2') format('woff2');
+ }
+
+ @font-face {
+   font-family: 'Plus Jakarta Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: url('/assets/fonts/plus-jakarta-sans-v12-latin-700.woff2') format('woff2');
+ }
+
+ @font-face {
+   font-family: 'Plus Jakarta Sans';
+   font-style: normal;
+   font-weight: 800;
+   font-display: swap;
+   src: url('/assets/fonts/plus-jakarta-sans-v12-latin-800.woff2') format('woff2');
+}
