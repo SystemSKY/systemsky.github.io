@@ -278,8 +278,8 @@ a:focus-visible, button:focus-visible {
 }
 
 @media (max-width: 720px) {
-  .site-footer__inner { grid-template-columns: 1fr; }
-  .site-footer__legal { flex-direction: column; gap: 10px; }
+  .site-footer__inner { grid-template-columns: 1fr; justify-items: center; text-align: center; }
+  .site-footer__legal { flex-direction: column; gap: 10px; align-items: center; text-align: center; }
 }
 
 /* ---------- Service detail pages ---------- */
