@@ -280,6 +280,11 @@ a:focus-visible, button:focus-visible {
 @media (max-width: 720px) {
   .site-footer__inner { grid-template-columns: 1fr; justify-items: center; text-align: center; }
   .site-footer__legal { flex-direction: column; gap: 10px; align-items: center; text-align: center; }
+  .feature-row__text { margin-left: 15px; }
+
+
+  h4, h3 { margin-left: 5px; }
+  p { margin-left: 5px; }
 }
 
 /* ---------- Service detail pages ---------- */
@@ -345,7 +350,7 @@ tbody td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: va
 tbody tr:last-child td { border-bottom: none; }
 tbody td:not(:first-child) { text-align: center; }
 
-.service-cta { max-width: 720px; margin: 0 auto; display: flex; gap: 14px; flex-wrap: wrap; padding: 30px 0 100px; }
+.service-cta { max-width: 720px; margin: 0 auto; display: flex; gap: 14px; flex-wrap: wrap; padding: 30px 0 100px; justify-content: center; }
 
 /* ---------- Impressum ---------- */
 .legal { max-width: 680px; margin: 0 auto; padding: 70px 24px 110px; }
