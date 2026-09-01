@@ -280,7 +280,7 @@ a:focus-visible, button:focus-visible {
 @media (max-width: 720px) {
   .site-footer__inner { grid-template-columns: 1fr; justify-items: center; text-align: center; }
   .site-footer__legal { flex-direction: column; gap: 10px; align-items: center; text-align: center; }
-  .feature-row__text { margin-left: 10px; margin-right: 5px; }
+  .feature-row__text { margin-left: 5px; margin-right: 5px; }
 
   h4, h3 { margin-left: 5px; }
   p { margin-left: 5px; margin-right: 3px; }
